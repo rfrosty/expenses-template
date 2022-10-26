@@ -1,8 +1,8 @@
 # Intro:
-
 This is a copy of a repo I use to determine what my balance will be on any day in the future.  
 It has no UI and it's not been designed for anybody to use other than me.  
 However, I have replaced my info with dummy-data & instructions so you can see how I use it.
+
 ---
 # Setup:
 In:
