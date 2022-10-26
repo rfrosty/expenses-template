@@ -1,10 +1,10 @@
-#Intro:
+# Intro:
 
 This is a copy of a repo I use to determine what my balance will be on any day in the future.  
 It has no UI and it's not been designed for anybody to use other than me.  
 However, I have replaced my info with dummy-data & instructions so you can see how I use it.
 ---
-#Setup:
+# Setup:
 In:
 - `accommodation.py`
 - `income.py`
@@ -32,41 +32,41 @@ Also, you will be prompted to input the date when the transaction occurs. A vali
 There are some other keyword-arguments present in the dummy-data that're intuitive to fill in.
 
 ---
-#Uses:
+# Uses:
 
-###Determine balance on any day in timeframe
+### Determine balance on any day in timeframe
 
 - In `user > main.py`, input start-date & end-date in month/day/year format.
 - Place a breakpoint at the end of `main.py`.
 - Run debugger.
 - Observe `timeframe1 > timeframe`.
 
-###Determine savings per week/month/year
+### Determine savings per week/month/year
 - Place a breakpoint at the end of `saving.py`.
 - Run debugger.
 - Observe `saving`.
 
-###Determine all accommodation transactions per week/month/year
+### Determine all accommodation transactions per week/month/year
 - Place a breakpoint at the end of `accommodation.py`.
 - Run debugger.
 - Observe `accommodation`.
 
-###Determine all spending transactions per week/month/year
+### Determine all spending transactions per week/month/year
 - Place a breakpoint at the end of `spending.py`.
 - Run debugger.
 - Observe `spending`.
 
-###Determine all subscription transactions per week/month/year
+### Determine all subscription transactions per week/month/year
 - Place a breakpoint at the end of `subscriptions.py`.
 - Run debugger. 
 - Observe `subscriptions`.
 
-###Determine income variables per week/month/year
+### Determine income variables per week/month/year
 - Place a breakpoint at the end of `income.py`.
 - Run debugger.
 - Observe variables.
 ---
-#Known Weaknesses/Assumptions
+# Known Weaknesses/Assumptions
 
 - Doesn't handle anything other NI letter-category than 'A'.
 - Assumes only possible bank holidays are the English & Scottish bank holidays from 2022-2023.
